@@ -1,0 +1,97 @@
+.cardContainer {
+    @apply rounded-lg;
+    @apply bg-gray-700;
+    @apply px-12;
+    @apply py-8;
+    @apply flex;
+    @apply flex-col;
+    @apply md:flex-row;
+}
+
+.cardContainer > div:first-child {
+    @apply h-full;
+    @apply flex;
+    @apply justify-around;
+    min-width: 8rem;
+}
+
+.cardContainer > div:first-child > img {
+    @apply rounded-full;
+    @apply h-32;
+    @apply w-32;
+    @apply object-cover;
+}
+
+.cardContainer > div:last-child {
+    @apply h-full;
+    @apply flex-grow;
+    @apply md:pl-10
+}
+
+.infoContainer {
+    @apply md:grid;
+    @apply grid-cols-2;
+}
+
+.infoContainer > div {
+    @apply flex;
+    @apply items-center;
+    @apply text-gray-50;
+    @apply mb-4;
+}
+
+.infoContainer > div > svg {
+    @apply text-2xl;
+    @apply mr-2;
+}
+
+.statContainer {
+    @apply flex;
+    @apply justify-between;
+    @apply bg-gray-900;
+    @apply rounded-lg;
+    @apply py-4;
+    @apply px-6;
+    @apply mb-6;
+}
+
+.statContainer > div > h4:first-child {
+    @apply text-sm;
+    @apply text-gray-400;
+}
+
+.statContainer > div > h4:last-child {
+    @apply text-lg;
+    @apply text-gray-100;
+    @apply font-bold;
+}
+
+.personalInformation {
+    @apply flex;
+    @apply flex-col;
+}
+
+.personalInformation > div {
+    @apply flex;
+    @apply justify-between;
+}
+
+.personalInformation > div > h1 {
+    @apply text-3xl;
+    @apply text-gray-50;
+}
+
+.personalInformation > div > span {
+    @apply text-gray-300;
+    @apply text-sm;
+}
+
+.personalInformation > h2 {
+    @apply text-blue-500;
+    @apply mb-4;
+}
+
+.personalInformation > h3 {
+    @apply text-gray-400;
+    @apply mb-6;
+}

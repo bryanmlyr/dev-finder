@@ -1,0 +1,7 @@
+.textContainer {
+    @apply text-4xl;
+    @apply text-gray-50;
+    @apply mb-6;
+    @apply font-extralight;
+    @apply tracking-widest;
+}

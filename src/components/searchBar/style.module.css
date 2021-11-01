@@ -1,0 +1,31 @@
+.searchBarContainer {
+    @apply rounded-lg;
+    @apply bg-gray-700;
+    @apply py-3;
+    @apply px-3;
+    @apply flex;
+    @apply items-center;
+    @apply mb-6;
+}
+
+.inputContainer {
+    @apply bg-gray-700;
+    @apply text-gray-50;
+    @apply outline-none;
+    @apply w-full;
+}
+
+.buttonContainer {
+    @apply bg-purple-700;
+    @apply text-gray-50;
+    @apply py-3;
+    @apply px-6;
+    @apply rounded-lg;
+}
+
+.searchIcon {
+    @apply text-purple-700;
+    @apply text-5xl;
+    @apply mr-4;
+    @apply ml-2;
+}
